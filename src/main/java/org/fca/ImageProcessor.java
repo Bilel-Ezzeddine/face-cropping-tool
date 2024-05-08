@@ -14,7 +14,7 @@ public class ImageProcessor {
 
     private static ImageProcessor INSTANCE = null;
 
-    public ImageProcessor(File inputDir, File outputDir) {
+    private ImageProcessor(File inputDir, File outputDir) {
         this.inputDir = inputDir;
         this.outputDir = outputDir;
     }
